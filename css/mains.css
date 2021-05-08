@@ -551,6 +551,7 @@ body {
   color: #ffffff;
   line-height: 1.2;
   text-align: center;
+  text-decoration: none;
 }
 #footer #footer-container #footer-content #contacts #time {
   margin-top: 61px;

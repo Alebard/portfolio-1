@@ -819,6 +819,3 @@ select {
 .swiper-slide-active .btn-beige {
   background: #ae8959;
 }
-a[href^=tel] {
-  color: inherit;
-}

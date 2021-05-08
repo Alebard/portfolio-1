@@ -1,0 +1,1029 @@
+@font-face {
+  src: url("../fonts/Lora-Regular.ttf");
+  font-family: LoraRegular;
+}
+
+@font-face {
+  src: url("../fonts/Lora-Bold.ttf");
+  font-family: LoraBold;
+}
+
+@font-face {
+  src: url("../fonts/MullerRegular.ttf");
+  font-family: MullerRegular;
+}
+
+
+@font-face {
+  src: url("../fonts/CASTELAR.ttf");
+  font-family: Castellar;
+}
+
+
+@font-face {
+  src: url("../fonts/MullerBold.ttf");
+  font-family: MullerBold;
+}
+
+
+body {
+  margin: 0;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex{
+  display: flex!important;
+}
+
+
+.burger{
+  display: none;
+}
+.logo {
+  a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "LoraRegular", serif;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+  }
+}
+
+.btn-beige {
+  border: 1px solid #ae8959;
+  background-color: rgb(174, 137, 89);
+  box-shadow: 0px 0px 18.75px 6.25px rgba(152, 108, 52, 0.2);
+  width: 232px;
+  padding: 19px 32px;
+  box-sizing: border-box;
+  outline: 0;
+  font-size: 18px;
+  font-family: "MullerBold", sans-serif;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.advantage {
+  display: flex;
+  align-items: center;
+
+  .advantage-title {
+    font-size: 18px;
+    font-family: "MullerRegular", sans-serif;
+    color: rgb(255, 255, 255);
+  }
+}
+
+
+#main {
+  background: #000000c2;
+
+  #main-container {
+    max-width: 1170px;
+    margin: 0 auto;
+
+    #header {
+      padding-top: 54px;
+      display: flex;
+      align-items: center;
+
+      #menu {
+        margin-left: 239px;
+        width: 355px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 2px;
+        overflow: auto;
+
+        a {
+          text-decoration: none;
+          font-size: 16px;
+          font-family: "MullerRegular", sans-serif;
+          color: rgb(255, 255, 255);
+          padding-bottom: 5px;
+          border: 1px solid transparent;
+
+          &.active, &:hover {
+            border-bottom: 1px solid rgb(174, 137, 89);
+          }
+        }
+      }
+
+      #phone {
+        font-size: 15px;
+        font-family: "MullerRegular", sans-serif;
+        color: rgb(255, 255, 255);
+        margin-left: 285px;
+        top: 2px;
+        position: relative;
+
+        span {
+          vertical-align: middle;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    #title {
+      padding-top: 12px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+
+      #fon-club {
+        bottom: 0px;
+        left: 70px;
+      }
+
+      #fon-strong {
+        top: 30px;
+        left: 360px;
+
+      }
+
+      .fon-text {
+        font-size: 180px;
+        font-family: "Castellar", serif;
+        color: rgba(174, 137, 89, 0.051);
+        position: absolute;
+      }
+
+      #title-info {
+        width: 510px;
+        position: relative;
+        top: -26px;
+
+        h1 {
+          margin: 0;
+          font-size: 40px;
+          font-family: "LoraRegular", serif;
+          color: rgb(255, 255, 255);
+          line-height: 48px;
+        }
+
+        #subtitle {
+          font-size: 22px;
+          font-family: "LoraRegular", serif;
+          color: rgb(255, 255, 255);
+          margin-top: 35px;
+        }
+
+        .btn-beige {
+          margin-top: 48px;
+
+          text-align: center;
+        }
+      }
+
+      #title-image {
+        line-height: 0;
+        z-index: 2;
+      }
+    }
+  }
+}
+
+.block-title {
+  font-size: 32px;
+  font-family: "LoraRegular", serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  font-weight: normal;
+  position: relative;
+  top: 2px;
+  line-height: 39px;
+}
+
+
+#advantages {
+  background-color: #131318;
+
+  #advantages-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 58px 0;
+
+    .advantage {
+      .advantage-title {
+        margin-left: 28px;
+        padding-top: 17px;
+      }
+    }
+  }
+}
+
+#description {
+  background: #000000c2;
+
+  #description-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 148px;
+
+
+    #description-block {
+      border-right: 1px solid #ae8959;
+
+      .block-title {
+        right: 43px;
+      }
+
+      #description-info {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 33px;
+        margin-top: 62px;
+
+        #description-info-main {
+          img {
+            transition: all .3s;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+
+          #description-info-main-advantages {
+            margin-top: 69px;
+
+            .advantage {
+              margin-top: 18px;
+
+              .advantage-image {
+                width: 36px;
+                text-align: center;
+              }
+
+              .advantage-title {
+                margin-left: 15px;
+              }
+            }
+
+          }
+        }
+
+        #description-info-text {
+          max-width: 469px;
+          position: relative;
+          margin-top: -2px;
+
+          .info-text {
+            font-size: 16px;
+            font-family: "MullerRegular", sans-serif;
+            color: rgb(255, 255, 255);
+            line-height: 1.313;
+            margin-bottom: 30px;
+          }
+
+          #description-info-text-image {
+            position: absolute;
+            bottom: -52px;
+            right: calc(50% - 79px);
+          }
+        }
+      }
+    }
+  }
+}
+
+#instagram {
+  background: url("../images/parallax1.png");
+  background-position: center;
+  height: 180px;
+  width: 100%;
+
+  #instagramm-content {
+    height: 100%;
+    width: 100%;
+    background-color: #000000b3;
+
+
+    #instagram-container {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      .btn-beige {
+        text-decoration: none;
+        text-align: center;
+      }
+
+      #instagramm-text {
+        font-size: 28px;
+        font-family: "LoraRegular", serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        width: 425px;
+        margin: -6px 256px 0 83px;
+
+        span {
+          font-family: LoraBold, serif;
+        }
+      }
+    }
+  }
+}
+
+#price {
+  background-color: #000000c2;
+
+  #price-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    #price-content {
+      border-left: 1px solid #ae8959;
+      position: relative;
+
+      #price-image {
+        position: absolute;
+        bottom: 5px;
+        left: 258px;
+
+      }
+
+      .block-title {
+        margin: 0 auto 14px auto;
+        line-height: 21px;
+      }
+
+      #price-block {
+        padding: 0 36px 0 80px;
+        display: flex;
+        justify-content: space-between;
+
+        #price-block-right {
+          #services-additional {
+            .services-block {
+              margin-top: -11px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.services-block {
+  width: 370px;
+
+  .price-title {
+    font-size: 25px;
+    font-family: "LoraRegular", sans-serif;
+    color: rgb(174, 137, 89);
+    margin-top: 50px;
+  }
+
+  .service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 38px;
+
+    .service-title, .service-price {
+      font-size: 18px;
+      font-family: "MullerRegular", sans-serif;
+      color: rgb(255, 255, 255);
+    }
+
+    .description {
+      font-size: 14px;
+      font-family: "MullerRegular", sans-serif;
+      color: rgb(89, 85, 80);
+      width: 231px;
+      margin-top: 9px;
+      line-height: 16px;
+
+    }
+  }
+}
+
+#discount {
+  background: url("../images/second-pr.png");
+  background-position: center;
+  height: 180px;
+  width: 100%;
+
+  #discount-overlay {
+    background-color: #000000b3;
+    height: 100%;
+
+
+    #discount-container {
+      height: 100%;
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+
+      #discount-text {
+        width: 299px;
+        font-size: 28px;
+        font-family: "LoraRegular", serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        margin: -10px 383px 0 82px;
+
+        span {
+          color: #ae8959;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}
+
+#masters {
+  background-color: #000000c2;
+
+  #masters-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 90px 0;
+
+    #masters-content {
+      border-right: 1px solid #ae8959;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #masters-text {
+        font-size: 18px;
+        font-family: "MullerRegular", sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.389;
+        text-align: center;
+        width: 796px;
+        margin-top: 57px;
+      }
+
+      #masters-slider {
+        margin: 0 auto;
+
+        .master-card.swiper-slide.swiper-slide-active {
+          z-index: 3;
+          width: 460px !important;
+          height: 480px;
+          margin-top: 0;
+          transition: all .5s;
+
+
+          .card-bg {
+            filter: none;
+          }
+        }
+
+        .master-card {
+          position: relative;
+          height: 404px;
+          margin-top: 37px;
+
+          .card-bg {
+            filter: grayscale(100%);
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center center;
+          }
+
+          .card-info {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.65);
+            padding: 23px 0 33px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .info-title {
+              font-size: 25px;
+              font-family: "LoraRegular", serif;
+              color: rgb(255, 255, 255);
+              margin-bottom: 29px;
+            }
+
+            .btn-beige {
+              font-size: 16px;
+              padding: 11px 40px;
+              width: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+  color: #ae8959;
+  top: unset;
+  bottom: 3px !important;
+}
+
+.swiper-button-prev {
+  left: 255px;
+}
+
+.swiper-button-next {
+  right: 255px;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  font-size: 30px;
+
+
+}
+
+.swiper-button-prev, .swiper-button-next{
+  font-size: 30px;
+  outline: none;
+  border: none;
+}
+
+.swiper-button-prev:hover{
+  outline: 0;
+}
+
+.swiper-button-next:active{
+  outline: 0;
+}
+.swiper-button-next:focus-visible{
+  outline: 0;
+}
+
+
+.swiper-container {
+  padding-bottom: 80px;
+  width: 1005px;
+  margin-top: 42px;
+  height: 560px;
+  box-sizing: border-box;
+}
+
+#marat {
+  background: url("../images/master1.png");
+}
+
+#ekaterina {
+  background: url("../images/master2.png");
+}
+
+#alexey {
+  background: url("../images/master3.png");
+}
+
+#ivan {
+  background: url("../images/ivan.jpg");
+
+}
+
+#anya {
+  background: url("../images/anya.jpeg");
+
+}
+
+#artem {
+  background: url("../images/artem.jpg");
+
+}
+
+#danil {
+  background: url("../images/danil.jpg");
+
+}
+
+#dima {
+  background: url("../images/dima.jpg");
+
+}
+
+#denis {
+  background: url("../images/denis.jpg");
+}
+
+
+.master-card.swiper-slide.swiper-slide-next, .master-card.swiper-slide.swiper-slide-prev {
+  transition: all .5s;
+}
+
+
+.card-info {
+  padding: 16px 0 21px 0 !important;
+
+  .info-title {
+    font-size: 20px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .btn-beige {
+    background: transparent;
+    box-shadow: none;
+    left: 9px;
+    position: relative;
+  }
+}
+
+
+.swiper-pagination-bullet {
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
+  border: 1px solid #ae8959;
+  background: transparent;
+  opacity: 1;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.swiper-pagination-bullet-active {
+  width: 30px;
+  height: 30px;
+  position: relative;
+
+  &::before {
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-color: #ae8959;
+    top: calc(50% - 8px);
+    right: calc(50% - 8px);
+
+  }
+}
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
+}
+
+#footer {
+  background: #131318;
+
+  #footer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 60px 0;
+
+    #footer-content {
+      display: flex;
+      justify-content: flex-end;
+
+      #contacts {
+        margin-right: 48px;
+
+        .logo {
+          text-align: center;
+        }
+
+        width: 202px;
+
+        .footer-text {
+          font-size: 16px;
+          font-family: "MullerRegular", sans-serif;
+          color: rgb(255, 255, 255);
+          line-height: 1.2;
+          text-align: center;
+        }
+
+        #time {
+          margin-top: 61px;
+          margin-bottom: 32px;
+        }
+
+        #adress {
+          margin-bottom: 36px;
+        }
+
+        #messengers {
+          margin-bottom: 53px;
+
+          #messengers-icon {
+            margin-top: 16px;
+          }
+
+          .messengers-icon {
+            text-decoration: none;
+            margin: 0 12px;
+
+            &:hover {
+              opacity: 0.9;
+            }
+          }
+        }
+
+        #email {
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    #footer-info {
+      margin-top: 91px;
+      display: flex;
+      justify-content: space-between;
+
+      .footer-text {
+        font-size: 14px;
+        font-family: "MullerRegular", sans-serif;
+        color: rgb(80, 79, 79);
+      }
+    }
+  }
+}
+
+#discount-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000c2;
+  z-index: 10;
+
+  #discount-popup-container {
+    box-sizing: border-box;
+    background-image: url("../images/popup-bg.png");
+    background-position: center;
+    width: 800px;
+    font-size: 40px;
+    font-family: "LoraRegular", serif;
+    color: #ffffff;
+    line-height: 48px;
+
+
+    #discount-popup-container-layer {
+      padding: 50px;
+      text-align: center;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      #discount-popup-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 0;
+        cursor: pointer;
+        line-height: 1;
+
+      }
+    }
+  }
+}
+
+#signup-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000c2;
+  z-index: 15;
+  overflow-y: auto ;
+
+  #signup-popup-container {
+    box-sizing: border-box;
+    background-image: url("../images/popup-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 1005px;
+    position: relative;
+    margin: auto;
+
+    #signup-popup-close {
+      position: absolute;
+      top: 32px;
+      right: 32px;
+      cursor: pointer;
+    }
+
+    #signup-popup-container-layer {
+      padding: 50px;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      #signup-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .block-title {
+          width: 300px;
+          font-size: 25px;
+          margin-bottom: 40px;
+        }
+
+        #form-block {
+          margin-top: 60px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+
+          form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 875px;
+
+            .input {
+              margin: 20px 33px;
+              position: relative;
+
+              .input-error {
+                display: none;
+                position: absolute;
+                right: 20px;
+                bottom: -20px;
+                color: red;
+                font-size: 15px;
+
+              }
+
+
+              .signup-input {
+                background: transparent;
+                border: 1px solid #ae8959;
+                width: 225px;
+                padding: 14px;
+                font-size: 16px;
+                font-family: "MullerRegular", sans-serif;
+                color: rgb(255, 255, 255);
+                box-sizing: border-box;
+                outline: 0;
+
+                &::placeholder {
+                  font-size: 16px;
+                  color: rgb(255, 255, 255);
+                }
+              }
+
+
+            }
+
+          }
+
+          .btn-beige {
+            margin-top: 20px;
+            width: 232px;
+            font-size: 18px;
+            padding: 20px;
+          }
+        }
+      }
+
+      #signup-sent {
+        display: none;
+
+        .block-title {
+          font-size: 25px;
+          width: 273px;
+        }
+
+        #sent-text {
+          margin: 0 auto;
+          font-size: 18px;
+          font-family: "MullerRegular", sans-serif;
+          color: rgb(255, 255, 255);
+          line-height: 1.389;
+          text-align: center;
+          width: 361px;
+          margin-top: 80px;
+          margin-bottom: 142px;
+        }
+      }
+    }
+  }
+}
+
+::-ms-expand {
+  margin-right: 5px;
+  color: #ae8959;
+  background: black;
+}
+
+.ui-widget-header {
+  background: #ae8959;
+  border-color: #131318;
+  color: white;
+}
+
+.ui-widget-content {
+  background: rgb(36, 36, 36);
+  color: white;
+}
+
+.ui-widget.ui-widget-content {
+  border-color: #ae8959;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+  color: white;
+  border-color: #ae8959;
+  background: transparent;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+  &:hover {
+    background: #000000c2;
+  }
+}
+
+.ui-widget-header .ui-icon {
+  filter: invert(100%);
+}
+
+.ui-state-hover.ui-datepicker-next-hover, .ui-state-hover.ui-datepicker-prev-hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.input-red {
+  border-color: red !important;
+}
+
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select {
+  display: inline-block;
+  position: relative;
+}
+
+.select:after {
+  content: url("../images/select.png");
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  text-align: center;
+  height: 18px;
+  width: 24px;
+  pointer-events: none;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+  background: rgba(0, 0, 0, 0.8);
+  border: none;
+}
+
+
+.ui-button {
+  border: 1px solid #ae8959;
+  background: transparent;
+  padding: 14px;
+  border-radius: 0;
+  width: 225px;
+  font-size: 16px;
+  font-family: "MullerRegular", sans-serif;
+  color: #ffffff;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.ui-selectmenu-icon.ui-icon {
+  display: none;
+}
+
+.ui-button:focus, .ui-button:hover, .ui-button:active {
+  border: 1px solid #ae8959;
+  background: transparent;
+  color: #ffffff;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.swiper-slide-active .btn-beige{
+  background: #ae8959;
+}
+

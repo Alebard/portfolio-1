@@ -1,0 +1,734 @@
+/*1230-1921*/
+@media screen and (min-width: 1920px) {
+
+    body {
+        background-size: 100%;
+    }
+
+    #instagram {
+        background-size: 100%;
+    }
+
+    #discount {
+        background-size: 100%;
+    }
+
+
+}
+
+
+/*1024-1229*/
+@media screen and (max-width: 1229px) {
+
+    body {
+        background-position: top center;
+    }
+
+    #main #main-container {
+        width: 90%;
+    }
+
+    #main #main-container #header {
+        justify-content: space-between;
+    }
+
+    #main #main-container #header #menu {
+        margin-left: 0;
+
+    }
+
+    #main #main-container #header #phone {
+        margin-left: 0;
+    }
+
+    #main #main-container #title #fon-strong {
+        left: 0;
+    }
+
+    #advantages #advantages-container {
+        width: 90%;
+    }
+
+    #description #description-container {
+        width: 90%;
+    }
+
+    #advantages #advantages-container .advantage .advantage-title {
+        margin-left: 15px;
+    }
+
+    #description #description-container #description-block #description-info #description-info-text {
+        margin-left: 20px;
+    }
+
+    #price #price-container {
+        width: 90%;
+    }
+
+    #masters #masters-container {
+        width: 90%;
+    }
+
+    #masters #masters-container #masters-content #masters-slider .master-card.swiper-slide.swiper-slide-active {
+        width: 413px !important;
+    }
+
+    .swiper-container {
+        width: 878px;
+    }
+
+    .swiper-button-prev {
+        left: 205px;
+    }
+
+    .swiper-button-next {
+        right: 205px;
+    }
+
+    #footer #footer-container {
+        width: 922px;
+    }
+
+    #footer #footer-container #footer-content {
+        justify-content: space-between;
+    }
+
+    iframe {
+        width: 671px !important;
+    }
+
+    #instagram #instagramm-content #instagram-container {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    #instagram {
+        height: 150px;
+    }
+
+    #instagram #instagramm-content #instagram-container #instagramm-text {
+        margin: 0;
+
+    }
+
+    #price #price-container {
+        padding: 50px 0;
+    }
+
+    #price #price-container #price-content #price-image {
+        width: 400px;
+    }
+
+    #price #price-container #price-content #price-image img {
+        width: 100%;
+    }
+
+    #price #price-container #price-content #price-block {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .services-block .price-title {
+        margin-top: 25px;
+    }
+
+    .services-block .service {
+        margin-top: 20px;
+    }
+
+    #discount {
+        height: 150px;
+    }
+
+    #discount #discount-overlay #discount-container {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    #discount #discount-overlay #discount-container #discount-text {
+        margin: 0;
+    }
+
+    #masters #masters-container {
+        padding: 50px 0;
+    }
+
+    #masters #masters-container #masters-content #masters-text {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .block-title {
+        width: 90%;
+        right: 0;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+
+    #main #main-container #header {
+        justify-content: flex-start;
+        padding-top: 30px;
+    }
+
+    #main #main-container #header #phone {
+        display: none;
+    }
+
+    #main #main-container #header #menu {
+        margin: auto;
+    }
+
+    #main #main-container #title {
+        margin-top: 30px;
+    }
+
+
+    #main #main-container #title #title-image {
+        max-width: 300px;
+    }
+
+    #main #main-container #title #title-image img {
+        width: 100%;
+    }
+
+    #main #main-container #title #title-info h1 {
+        font-size: 30px;
+    }
+
+
+    .advantage .advantage-image img {
+        width: 100%;
+    }
+
+    .advantage .advantage-image {
+        width: 40px;
+    }
+
+    #advantages #advantages-container .advantage .advantage-title {
+        padding-top: 0;
+        max-width: 100px;
+    }
+
+    #advantages #advantages-container .advantage:first-child .advantage-title{
+        max-width: 150px;
+    }
+
+
+    #advantages #advantages-container .advantage:nth-child(1 + 2) .advantage-title{
+        margin-right: 30px;
+    }
+
+    #advantages #advantages-container {
+        padding: 36px 0;
+    }
+
+    #main #main-container #title .fon-text {
+        font-size: 130px;
+    }
+
+    #description #description-container {
+        padding-top: 50px;
+    }
+
+    #description #description-container #description-block #description-info #description-info-main img {
+        width: 100%;
+    }
+
+    #description #description-container #description-block #description-info #description-info-main #description-info-main-image {
+        width: 400px;
+    }
+
+    #description #description-container #description-block #description-info {
+        padding-right: 10px;
+    }
+
+    #description #description-container #description-block #description-info #description-info-main #description-info-main-advantages {
+        margin-top: 30px;
+    }
+
+    #description #description-container {
+        padding-bottom: 60px;
+    }
+
+    #description #description-container #description-block #description-info #description-info-text .info-text {
+        margin-bottom: 20px;
+    }
+
+    #masters #masters-container #masters-content #masters-slider .master-card.swiper-slide.swiper-slide-active {
+        width: 251px !important;
+        height: 374px;
+    }
+
+    .swiper-container {
+        width: 580px;
+        height: 465px;
+    }
+
+    .swiper-button-prev {
+        left: 50px;
+    }
+
+    .swiper-button-next {
+        right: 50px;
+    }
+
+    #masters #masters-container #masters-content #masters-slider .master-card {
+        height: 300px;
+    }
+
+    #masters #masters-container #masters-content #masters-slider .master-card .card-info .btn-beige {
+        font-size: 14px;
+        padding: 9px 17px;
+    }
+
+    iframe {
+        width: 443px !important;
+        height: 328px !important;
+    }
+
+    #footer #footer-container {
+        padding: 50px 0;
+        width: 665px;
+
+    }
+
+    #footer #footer-container #footer-content #contacts {
+        margin: 0;
+    }
+
+    #footer #footer-container #footer-content #contacts #time {
+        margin: 20px 0;
+    }
+
+    #footer #footer-container #footer-content #contacts #adress {
+        margin-bottom: 20px;
+    }
+
+    #footer #footer-container #footer-content #contacts #messengers {
+        margin-bottom: 20px;
+    }
+
+    #footer #footer-container #footer-content #contacts #messengers #messengers-icon {
+        margin-top: 12px;
+    }
+
+    #footer #footer-container #footer-info {
+        margin-top: 50px;
+    }
+
+
+}
+
+
+/*580-767*/
+@media screen and (max-width: 767px) {
+
+    #main #main-container #header #menu a {
+        margin: 0 12px;
+    }
+
+    #main #main-container #header #menu {
+        justify-content: flex-end;
+    }
+
+    #main #main-container #title #title-info h1 {
+        font-size: 25px;
+        line-height: unset;
+    }
+
+    #main #main-container #title #title-info #subtitle {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .btn-beige {
+        font-size: 15px;
+        width: unset;
+        padding: 15px 20px;
+    }
+
+    #main #main-container #title #title-image {
+        max-width: 255px;
+    }
+
+    #description #description-container {
+        padding: 30px 0;
+    }
+
+    #description #description-container #description-block #description-info {
+        margin-top: 20px;
+    }
+
+    .block-title {
+        font-size: 25px;
+    }
+
+    #description #description-container #description-block .block-title {
+        right: 0;
+    }
+
+    #description #description-container #description-block #description-info #description-info-main #description-info-main-image {
+        width: 300px;
+    }
+
+    #description #description-container #description-block #description-info #description-info-text #description-info-text-image {
+        bottom: 50px;
+    }
+
+    #description #description-container #description-block #description-info #description-info-text .info-text:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    #instagram #instagramm-content #instagram-container #instagramm-text {
+        width: 304px;
+        font-size: 20px;
+    }
+
+    #instagram {
+        height: 100px;
+    }
+
+    #discount {
+        height: 100px;
+    }
+
+    #discount #discount-overlay #discount-container #discount-text {
+        font-size: 20px;
+
+    }
+
+    .swiper-container {
+        width: 480px;
+        height: 368px;
+    }
+
+    #masters #masters-container #masters-content #masters-slider .master-card.swiper-slide.swiper-slide-active {
+        width: 200px !important;
+        height: 274px;
+    }
+
+    #masters #masters-container #masters-content #masters-slider .master-card {
+        height: 200px;
+    }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        color: white;
+        font-size: 20px;
+        font-family: MullerRegular, sans-serif;
+    }
+
+    iframe {
+        width: 318px !important;
+    }
+
+    #price #price-container #price-content #price-image {
+        width: 300px;
+        left: 100px;
+    }
+
+    #main #main-container #title #fon-strong{
+        display: none;
+    }
+
+    .swiper-button-prev{
+        left: 0;
+    }
+
+    .swiper-button-next{
+       right: 0;
+    }
+
+    #footer #footer-container {
+        width: 540px;
+    }
+
+
+}
+
+/*425-579*/
+@media screen and (max-width: 579px) {
+
+    #main #main-container #header #menu {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        padding-top: 80px;
+        align-items: center;
+        z-index: 11;
+        justify-content: flex-start;
+        display: none;
+        overflow-y: auto;
+    }
+
+    #main #main-container #header #menu a {
+        margin: 20px auto;
+        font-size: 20px;
+
+    }
+
+    #main #main-container #header #menu a.active, #main #main-container #header #menu a:hover {
+        border-color: transparent;
+    }
+
+    .burger {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        z-index: 13;
+        width: 40px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .burger span, .burger span:before, .burger span:after {
+        width: 100%;
+        position: absolute;
+        height: 3px;
+        background: white;
+        display: block;
+        transition: .3s;
+        border-radius: 5px;
+    }
+
+    .burger span:before {
+        content: "";
+        top: -10px;
+        transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .burger span {
+        top: 5px;
+    }
+
+    .burger span:after {
+        content: "";
+        bottom: -10px;
+        transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .burger span.active:before {
+        content: "";
+        top: 0px;
+        transform: rotate(45deg);
+        transition: top 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .burger span.active:after {
+        content: "";
+        bottom: 0;
+        transform: rotate(-45deg);
+        transition: bottom 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .burger span.active {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    #main #main-container #title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main #main-container #title #title-info {
+        width: 90%;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #main #main-container #title #title-info .btn-beige {
+        margin: 20px 0;
+    }
+
+    #advantages #advantages-container {
+        padding: 20px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: auto;
+        max-width: 324px;
+    }
+
+    #advantages #advantages-container .advantage {
+        margin: 10px;
+
+    }
+
+
+    #advantages #advantages-container .advantage .advantage-title{
+       max-width: unset!important;
+    }
+
+    .btn-beige {
+        width: 90%;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .swiper-container {
+        width: 200px;
+    }
+
+    #footer #footer-container #footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer #footer-container {
+        padding: 20px 0;
+        width: 90%;
+    }
+
+    iframe {
+        margin-top: 20px;
+        width: 100% !important;
+        height: 195px !important;
+    }
+
+    #price #price-container #price-content #price-image {
+        left: 60px;
+    }
+
+    #main #main-container #title .fon-text {
+        display: none;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        bottom: 0px !important;
+    }
+
+    #description #description-container #description-block #description-info {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #description #description-container #description-block #description-info #description-info-main #description-info-main-image {
+        margin: 0 auto;
+    }
+
+    #description #description-container #description-block #description-info #description-info-text {
+        margin: 20px 0 0 0;
+    }
+
+    #instagram #instagramm-content #instagram-container .btn-beige {
+        width: unset;
+    }
+
+    #instagram #instagramm-content #instagram-container #instagramm-text {
+        font-size: 18px;
+        width: 195px;
+    }
+
+    #price #price-container #price-content #price-image {
+        width: 200px;
+    }
+
+    #discount .btn-beige {
+        width: unset;
+        padding: 20px 10px;
+    }
+
+    #discount #discount-overlay #discount-container #discount-text {
+        font-size: 18px;
+        width: 150px;
+    }
+
+    #masters #masters-container {
+        padding: 30px 0;
+    }
+
+    #masters #masters-container #masters-content #masters-text {
+        margin-top: 20px;
+    }
+
+    #footer #footer-container #footer-info {
+        margin-top: 20px;
+    }
+
+
+}
+
+
+/*375-424*/
+@media screen and (max-width: 424px) {
+
+    #price #price-container{
+        padding: 30px 0;
+    }
+
+    .services-block .price-title{
+        font-size: 20px;
+    }
+
+    .services-block .service .service-title, .services-block .service .service-price{
+        font-size: 15px;
+    }
+
+    .services-block{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    #description #description-container #description-block #description-info #description-info-text .info-text{
+        margin-bottom: 10px;
+    }
+
+    .swiper-container{
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    #description #description-container #description-block #description-info #description-info-main #description-info-main-advantages{
+        margin-top: 20px;
+    }
+
+}
+
+
+/*320-374*/
+@media screen and (max-width: 374px) {
+
+    #description #description-container #description-block #description-info #description-info-main #description-info-main-image{
+        width: 250px;
+    }
+
+    #instagram #instagramm-content #instagram-container #instagramm-text{
+        font-size: 14px;
+
+    }
+
+    #instagram #instagramm-content #instagram-container .btn-beige{
+        font-size: 16px;
+    }
+
+    #discount .btn-beige{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #discount #discount-overlay #discount-container #discount-text{
+        font-size: 14px;
+    }
+
+    #footer #footer-container #footer-info .footer-text{
+        margin-left: 20px;
+        width: 103px;
+    }
+
+}
+
